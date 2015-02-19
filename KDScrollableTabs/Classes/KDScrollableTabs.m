@@ -18,7 +18,22 @@
     self = [super initWithCoder:aDecoder];
     
     if (self) {
+        // horizontal table
+        // -90 degrees rotation will move top of your tableview to the left
+        CGRect frame = self.frame;
+        self.horizontalTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, frame.size.height, frame.size.width)];
+        self.horizontalTableView.transform = CGAffineTransformMakeRotation(-M_PI_2);
         
+        self.horizontalTableView.delegate = self;
+        self.horizontalTableView.dataSource = self;
+        
+        [self.horizontalTableView setShowsHorizontalScrollIndicator:NO];
+        [self.horizontalTableView setShowsVerticalScrollIndicator:NO];
+        
+        [self.horizontalTableView setFrame:CGRectMake(0, 0, self.horizontalTableView.frame.size.width, self.horizontalTableView.frame.size.height)];
+        [self.horizontalTableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+        
+        [self addSubview:self.horizontalTableView];
     }
     
     return self;
@@ -94,26 +109,6 @@
     UIView *contentView = [cell.contentView viewWithTag:786];
     
     [self.datasource tabWithIndexPath:indexPath andView:contentView];
-}
-
-- (void)loadView
-{
-    // horizontal table
-    // -90 degrees rotation will move top of your tableview to the left
-    CGRect frame = self.frame;
-    self.horizontalTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, frame.size.height, frame.size.width)];
-    self.horizontalTableView.transform = CGAffineTransformMakeRotation(-M_PI_2);
-    
-    self.horizontalTableView.delegate = self;
-    self.horizontalTableView.dataSource = self;
-    
-    [self.horizontalTableView setShowsHorizontalScrollIndicator:NO];
-    [self.horizontalTableView setShowsVerticalScrollIndicator:NO];
-    
-    [self.horizontalTableView setFrame:CGRectMake(0, 0, self.horizontalTableView.frame.size.width, self.horizontalTableView.frame.size.height)];
-    [self.horizontalTableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
-    
-    [self addSubview:self.horizontalTableView];
 }
 
 /*

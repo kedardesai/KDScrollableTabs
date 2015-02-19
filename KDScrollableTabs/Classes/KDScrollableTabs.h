@@ -36,6 +36,4 @@
 
 - (void)tabViewForIndexPath:(NSInteger)indexPath;
 
-- (void)loadView;
-
 @end

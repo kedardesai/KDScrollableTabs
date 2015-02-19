@@ -29,7 +29,6 @@
     
     self.scrollableTabView.delegate = self;
     self.scrollableTabView.datasource = self;
-    [self.scrollableTabView loadView];
 }
 
 - (void)didReceiveMemoryWarning {
