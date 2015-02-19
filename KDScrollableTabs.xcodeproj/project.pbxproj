@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BD44FD61A8E0D3E008AD7DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD44FD51A8E0D3E008AD7DD /* main.m */; };
+		1BD44FD91A8E0D3E008AD7DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD44FD81A8E0D3E008AD7DD /* AppDelegate.m */; };
+		1BD44FDC1A8E0D3E008AD7DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD44FDB1A8E0D3E008AD7DD /* ViewController.m */; };
+		1BD44FDF1A8E0D3E008AD7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD44FDD1A8E0D3E008AD7DD /* Main.storyboard */; };
+		1BD44FE11A8E0D3E008AD7DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BD44FE01A8E0D3E008AD7DD /* Images.xcassets */; };
+		1BD44FE41A8E0D3E008AD7DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD44FE21A8E0D3E008AD7DD /* LaunchScreen.xib */; };
+		1BD44FF01A8E0D3E008AD7DD /* KDScrollableTabsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD44FEF1A8E0D3E008AD7DD /* KDScrollableTabsTests.m */; };
+		1BD450031A8E1187008AD7DD /* KDScrollableTabs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD450021A8E1187008AD7DD /* KDScrollableTabs.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BD44FEA1A8E0D3E008AD7DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BD44FC81A8E0D3E008AD7DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BD44FCF1A8E0D3E008AD7DD;
+			remoteInfo = KDScrollableTabs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BD44FD01A8E0D3E008AD7DD /* KDScrollableTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KDScrollableTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD44FD41A8E0D3E008AD7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BD44FD51A8E0D3E008AD7DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BD44FD71A8E0D3E008AD7DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BD44FD81A8E0D3E008AD7DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BD44FDA1A8E0D3E008AD7DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BD44FDB1A8E0D3E008AD7DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BD44FDE1A8E0D3E008AD7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BD44FE01A8E0D3E008AD7DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1BD44FE31A8E0D3E008AD7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1BD44FE91A8E0D3E008AD7DD /* KDScrollableTabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDScrollableTabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD44FEE1A8E0D3E008AD7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BD44FEF1A8E0D3E008AD7DD /* KDScrollableTabsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDScrollableTabsTests.m; sourceTree = "<group>"; };
+		1BD450011A8E1187008AD7DD /* KDScrollableTabs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDScrollableTabs.h; sourceTree = "<group>"; };
+		1BD450021A8E1187008AD7DD /* KDScrollableTabs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDScrollableTabs.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BD44FCD1A8E0D3E008AD7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD44FE61A8E0D3E008AD7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BD44FC71A8E0D3E008AD7DD = {
+			isa = PBXGroup;
+			children = (
+				1BD44FD21A8E0D3E008AD7DD /* KDScrollableTabs */,
+				1BD44FEC1A8E0D3E008AD7DD /* KDScrollableTabsTests */,
+				1BD44FD11A8E0D3E008AD7DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BD44FD11A8E0D3E008AD7DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BD44FD01A8E0D3E008AD7DD /* KDScrollableTabs.app */,
+				1BD44FE91A8E0D3E008AD7DD /* KDScrollableTabsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BD44FD21A8E0D3E008AD7DD /* KDScrollableTabs */ = {
+			isa = PBXGroup;
+			children = (
+				1BD44FFA1A8E0D7E008AD7DD /* Classes */,
+				1BD44FD71A8E0D3E008AD7DD /* AppDelegate.h */,
+				1BD44FD81A8E0D3E008AD7DD /* AppDelegate.m */,
+				1BD44FDA1A8E0D3E008AD7DD /* ViewController.h */,
+				1BD44FDB1A8E0D3E008AD7DD /* ViewController.m */,
+				1BD44FDD1A8E0D3E008AD7DD /* Main.storyboard */,
+				1BD44FE01A8E0D3E008AD7DD /* Images.xcassets */,
+				1BD44FE21A8E0D3E008AD7DD /* LaunchScreen.xib */,
+				1BD44FD31A8E0D3E008AD7DD /* Supporting Files */,
+			);
+			path = KDScrollableTabs;
+			sourceTree = "<group>";
+		};
+		1BD44FD31A8E0D3E008AD7DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BD44FD41A8E0D3E008AD7DD /* Info.plist */,
+				1BD44FD51A8E0D3E008AD7DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BD44FEC1A8E0D3E008AD7DD /* KDScrollableTabsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BD44FEF1A8E0D3E008AD7DD /* KDScrollableTabsTests.m */,
+				1BD44FED1A8E0D3E008AD7DD /* Supporting Files */,
+			);
+			path = KDScrollableTabsTests;
+			sourceTree = "<group>";
+		};
+		1BD44FED1A8E0D3E008AD7DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BD44FEE1A8E0D3E008AD7DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BD44FFA1A8E0D7E008AD7DD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1BD450011A8E1187008AD7DD /* KDScrollableTabs.h */,
+				1BD450021A8E1187008AD7DD /* KDScrollableTabs.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BD44FCF1A8E0D3E008AD7DD /* KDScrollableTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BD44FF31A8E0D3E008AD7DD /* Build configuration list for PBXNativeTarget "KDScrollableTabs" */;
+			buildPhases = (
+				1BD44FCC1A8E0D3E008AD7DD /* Sources */,
+				1BD44FCD1A8E0D3E008AD7DD /* Frameworks */,
+				1BD44FCE1A8E0D3E008AD7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KDScrollableTabs;
+			productName = KDScrollableTabs;
+			productReference = 1BD44FD01A8E0D3E008AD7DD /* KDScrollableTabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BD44FE81A8E0D3E008AD7DD /* KDScrollableTabsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BD44FF61A8E0D3E008AD7DD /* Build configuration list for PBXNativeTarget "KDScrollableTabsTests" */;
+			buildPhases = (
+				1BD44FE51A8E0D3E008AD7DD /* Sources */,
+				1BD44FE61A8E0D3E008AD7DD /* Frameworks */,
+				1BD44FE71A8E0D3E008AD7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BD44FEB1A8E0D3E008AD7DD /* PBXTargetDependency */,
+			);
+			name = KDScrollableTabsTests;
+			productName = KDScrollableTabsTests;
+			productReference = 1BD44FE91A8E0D3E008AD7DD /* KDScrollableTabsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BD44FC81A8E0D3E008AD7DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Kedar Desai";
+				TargetAttributes = {
+					1BD44FCF1A8E0D3E008AD7DD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1BD44FE81A8E0D3E008AD7DD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1BD44FCF1A8E0D3E008AD7DD;
+					};
+				};
+			};
+			buildConfigurationList = 1BD44FCB1A8E0D3E008AD7DD /* Build configuration list for PBXProject "KDScrollableTabs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BD44FC71A8E0D3E008AD7DD;
+			productRefGroup = 1BD44FD11A8E0D3E008AD7DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BD44FCF1A8E0D3E008AD7DD /* KDScrollableTabs */,
+				1BD44FE81A8E0D3E008AD7DD /* KDScrollableTabsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BD44FCE1A8E0D3E008AD7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD44FDF1A8E0D3E008AD7DD /* Main.storyboard in Resources */,
+				1BD44FE41A8E0D3E008AD7DD /* LaunchScreen.xib in Resources */,
+				1BD44FE11A8E0D3E008AD7DD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD44FE71A8E0D3E008AD7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BD44FCC1A8E0D3E008AD7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD44FDC1A8E0D3E008AD7DD /* ViewController.m in Sources */,
+				1BD450031A8E1187008AD7DD /* KDScrollableTabs.m in Sources */,
+				1BD44FD91A8E0D3E008AD7DD /* AppDelegate.m in Sources */,
+				1BD44FD61A8E0D3E008AD7DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD44FE51A8E0D3E008AD7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD44FF01A8E0D3E008AD7DD /* KDScrollableTabsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BD44FEB1A8E0D3E008AD7DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BD44FCF1A8E0D3E008AD7DD /* KDScrollableTabs */;
+			targetProxy = 1BD44FEA1A8E0D3E008AD7DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BD44FDD1A8E0D3E008AD7DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BD44FDE1A8E0D3E008AD7DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BD44FE21A8E0D3E008AD7DD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BD44FE31A8E0D3E008AD7DD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BD44FF11A8E0D3E008AD7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1BD44FF21A8E0D3E008AD7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BD44FF41A8E0D3E008AD7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KDScrollableTabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BD44FF51A8E0D3E008AD7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KDScrollableTabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1BD44FF71A8E0D3E008AD7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KDScrollableTabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KDScrollableTabs.app/KDScrollableTabs";
+			};
+			name = Debug;
+		};
+		1BD44FF81A8E0D3E008AD7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KDScrollableTabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KDScrollableTabs.app/KDScrollableTabs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BD44FCB1A8E0D3E008AD7DD /* Build configuration list for PBXProject "KDScrollableTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD44FF11A8E0D3E008AD7DD /* Debug */,
+				1BD44FF21A8E0D3E008AD7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BD44FF31A8E0D3E008AD7DD /* Build configuration list for PBXNativeTarget "KDScrollableTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD44FF41A8E0D3E008AD7DD /* Debug */,
+				1BD44FF51A8E0D3E008AD7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1BD44FF61A8E0D3E008AD7DD /* Build configuration list for PBXNativeTarget "KDScrollableTabsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD44FF71A8E0D3E008AD7DD /* Debug */,
+				1BD44FF81A8E0D3E008AD7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BD44FC81A8E0D3E008AD7DD /* Project object */;
+}
